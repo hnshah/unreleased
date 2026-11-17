@@ -1,0 +1,14 @@
+{
+ "url": "https://boards-api.greenhouse.io/v1/boards/lovable/jobs?content=false",
+ "final_url": "https://boards-api.greenhouse.io/v1/boards/lovable/jobs?content=false",
+ "status": 200,
+ "fetched_at": "2026-10-30T22:36:40Z",
+ "content_type": "application/json",
+ "bytes_full": 39399,
+ "sha256_full": "3ca3239aa27345e3b610386c95dcb654f0abc9e2eb5f721c5b1a37fa84d3f29a",
+ "bytes": 39399,
+ "sha256": "3ca3239aa27345e3b610386c95dcb654f0abc9e2eb5f721c5b1a37fa84d3f29a",
+ "reduction": "whole response",
+ "user_agent": "the project UA from scripts/lib/fetch.py",
+ "policy": "public API, one request, >= 1.2 s per host"
+}

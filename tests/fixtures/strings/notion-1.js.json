@@ -1,0 +1,12 @@
+{
+ "product": "notion",
+ "run": "results/notion/2026-10-30T200330Z",
+ "raw_file": "bd39783e66.js",
+ "url": "https://www.notion.so/_assets/app-abefe60ebe8c0980.js",
+ "sha256_full": "811c427cf14238f483b13d8d8615dbc237764614a2c0c43d625dbd7e98b70795",
+ "start": 490603,
+ "end": 490975,
+ "needle": "campaign:\"business_annual_bundle_3_for_1_seats\"",
+ "occurrences_in_body": 1,
+ "bytes": 372
+}

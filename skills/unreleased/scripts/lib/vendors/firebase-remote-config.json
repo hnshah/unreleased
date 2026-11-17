@@ -1,0 +1,12 @@
+{
+ "markers": [
+  "remoteconfig",
+  "remote_config",
+  "firebase"
+ ],
+ "init": [
+  "getRemoteConfig(",
+  "fetchAndActivate("
+ ],
+ "sdk": "Firebase Remote Config"
+}

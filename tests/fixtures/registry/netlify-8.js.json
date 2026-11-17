@@ -1,0 +1,12 @@
+{
+ "product": "netlify",
+ "run": "results/netlify/2026-10-30T201332Z",
+ "raw_file": "fd0591e7ff.js",
+ "url": "https://app.netlify.com/assets/js/ui.3ac900ec67bec37d79bc.js",
+ "sha256_full": "7d0cf4826bb9d57ee947266c43ba9a9c303b04f413e0fdf2fa7166d9cc42118a",
+ "start": 274464,
+ "end": 284999,
+ "needle": "[{\"plans\":[\"credit-free\"],\"limits\":",
+ "occurrences_in_body": 1,
+ "bytes": 10535
+}

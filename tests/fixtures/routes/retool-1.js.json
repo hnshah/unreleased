@@ -1,0 +1,12 @@
+{
+ "product": "retool",
+ "run": "results/retool/2026-10-30T200620Z",
+ "raw_file": "e4844dc437.js",
+ "url": null,
+ "sha256_full": "67e13cf025f023ad8c432a3f37c857e88a4b58beaa09f632a9d3cc1512687636",
+ "start": 3966,
+ "end": 5589,
+ "needle": "{\"path\":\"/2026-agentic-work-report\"}",
+ "occurrences_in_body": 1,
+ "bytes": 1623
+}

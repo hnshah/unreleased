@@ -1,0 +1,10 @@
+{
+ "markers": [
+  "newFieldList",
+  "proto3.makeEnum",
+  "@bufbuild/protobuf",
+  "feature_support"
+ ],
+ "init": [],
+ "sdk": null
+}

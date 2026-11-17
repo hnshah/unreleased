@@ -1,0 +1,12 @@
+{
+ "product": "lovable",
+ "run": "results/lovable/2026-10-30T200522Z",
+ "raw_file": "2b82047704.js",
+ "url": "https://lovable.dev/assets/flag-catalog-BnPfe37F.js",
+ "sha256_full": "5697492d9ac0a683175ef40ace031cf5e3591dfefe8db0cda9f6b6deebd87983",
+ "start": 649,
+ "end": 8282,
+ "needle": "key:\"agent-browser\"",
+ "occurrences_in_body": 1,
+ "bytes": 7633
+}

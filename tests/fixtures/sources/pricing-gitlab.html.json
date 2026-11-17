@@ -1,0 +1,14 @@
+{
+ "url": "https://about.gitlab.com/pricing/",
+ "final_url": "https://about.gitlab.com/pricing/",
+ "status": 200,
+ "fetched_at": "2026-10-30T22:37:40Z",
+ "content_type": "text/html",
+ "bytes_full": 636509,
+ "sha256_full": "5d3a22b0fa73e08e213e55da87df26445f5e6d9d847571aa723fa89bb864d80b",
+ "bytes": 53129,
+ "sha256": "9b9c5d110cc02f86ab6ffcdbfd4cbf0d503c577c81ddbc993f36fdb52a6fad77",
+ "reduction": "excerpt: head (up to the first inline script) + <main> windows 160069-199920 (GitLab.com tier cards) and 368393-380076 (add-ons incl. the Advanced Capacity card) of the full page; byte offsets are into the full body (sha256_full)",
+ "user_agent": "the project UA from scripts/lib/fetch.py",
+ "policy": "public API, one request, >= 1.2 s per host"
+}

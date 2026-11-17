@@ -1,0 +1,12 @@
+{
+ "product": "vercel",
+ "run": "results/vercel/2026-10-30T200335Z",
+ "raw_file": "a5d89579dc.html",
+ "url": "https://vercel.com/login",
+ "sha256_full": "56950dc8dd59b99525e765937bcd3ec68bf981d2fd94c34a67c0182666250288",
+ "start": 298771,
+ "end": 299507,
+ "needle": "<script type=\"application/json\" data-flag-values=\"true\">",
+ "occurrences_in_body": 2,
+ "bytes": 736
+}

@@ -1,0 +1,23 @@
+{
+ "reader": "results/huggingface.md",
+ "expect": {
+  "route": [
+   "/new-container",
+   "/new-kernel"
+  ],
+  "manifest": [
+   "NewContainerImageForm",
+   "ContainerTagDelete",
+   "PreReleaseCountdown",
+   "PreReleaseNotifyButton",
+   "SpaceAgentSetup",
+   "UserSettingsMCP"
+  ],
+  "inline": [
+   "canCreateKernels"
+  ]
+ },
+ "noise": [
+  "TraceHarnessIcon"
+ ]
+}

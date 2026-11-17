@@ -1,0 +1,12 @@
+{
+ "product": "cursor",
+ "run": "results/cursor/2026-10-30T200713Z",
+ "raw_file": "26211cab28.html",
+ "url": "https://cursor.com/",
+ "sha256_full": "99d70cc6d6a46b29a7a52eb7af333c51812c0059d2f1dd42720747f17c038b12",
+ "start": 507501,
+ "end": 510314,
+ "needle": "changelogData",
+ "occurrences_in_body": 1,
+ "bytes": 2813
+}

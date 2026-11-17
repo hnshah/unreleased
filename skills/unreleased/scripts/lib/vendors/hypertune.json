@@ -1,0 +1,10 @@
+{
+ "markers": [
+  "hypertune"
+ ],
+ "init": [
+  "createSource("
+ ],
+ "sdk": "Hypertune",
+ "requires_marker_for_init": true
+}

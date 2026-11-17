@@ -1,0 +1,14 @@
+{
+ "url": "https://api.ashbyhq.com/posting-api/job-board/linear",
+ "final_url": "https://api.ashbyhq.com/posting-api/job-board/linear",
+ "status": 200,
+ "fetched_at": "2026-10-30T22:36:41Z",
+ "content_type": "application/json; charset=utf-8",
+ "bytes_full": 412718,
+ "sha256_full": "0c91f87fc1f31ef756a2e9981e65e213f8e83beec9317826b658dc748218e185",
+ "bytes": 85983,
+ "sha256": "73cc8c9f47000a754094b0d590dc522e8050cf5b7b9ec99eeb83a48aa2c0618e",
+ "reduction": "kept the first 6 of 31 jobs, every field",
+ "user_agent": "the project UA from scripts/lib/fetch.py",
+ "policy": "public API, one request, >= 1.2 s per host"
+}

@@ -1,0 +1,9 @@
+{
+ "markers": [
+  "flagsmith"
+ ],
+ "init": [
+  "flagsmith.init("
+ ],
+ "sdk": "Flagsmith"
+}

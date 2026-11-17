@@ -1,0 +1,12 @@
+{
+ "product": "dropbox",
+ "run": "results/dropbox/2026-10-30T200845Z",
+ "raw_file": "09a1e8286e.js",
+ "url": "https://cfl.dropboxstatic.com/static/atlas/signup_signin/login_page_edison_rspb_fallback/e_atlas__signup_signin__static__login_page_edison-vfl4uUdc6.js",
+ "sha256_full": "ce59496f18aa904d465bdb426345190b7457c222b8d4fe1c1dc37f1b329ee395",
+ "start": 1423040,
+ "end": 1424759,
+ "needle": "\"coding_agent.AgentWorkBacking\"",
+ "occurrences_in_body": 1,
+ "bytes": 1719
+}

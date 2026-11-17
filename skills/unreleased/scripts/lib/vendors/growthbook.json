@@ -1,0 +1,9 @@
+{
+ "markers": [
+  "growthbook"
+ ],
+ "init": [
+  "new GrowthBook("
+ ],
+ "sdk": "GrowthBook"
+}

@@ -1,0 +1,12 @@
+{
+ "product": "figma",
+ "run": "results/figma/2026-10-30T200330Z",
+ "raw_file": "da7d62eceb.html",
+ "url": "https://www.figma.com/login",
+ "sha256_full": "91dbc11c5e155f4faad8cdae8e337e3ef41f35ee37939380ce42d8cf99f94d45",
+ "start": 97623,
+ "end": 102379,
+ "needle": "\"figmake_model_picker_enabled_models\"",
+ "occurrences_in_body": 1,
+ "bytes": 4756
+}

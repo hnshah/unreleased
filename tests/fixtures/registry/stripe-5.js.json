@@ -1,0 +1,12 @@
+{
+ "product": "stripe",
+ "run": "results/stripe/2026-10-30T201001Z",
+ "raw_file": "fc33efdb3f.js",
+ "url": "https://b.stripecdn.com/dashboard-fe-statics-srv/assets/login.jk6zaety835yetht.js",
+ "sha256_full": "a25ae6cf996a5021f710a3bf694ba42b02ce00c24b37ea25b5ea6a0aba2b9bb3",
+ "start": 2442611,
+ "end": 2485836,
+ "needle": "sB={parametersAllowList:[",
+ "occurrences_in_body": 1,
+ "bytes": 43225
+}

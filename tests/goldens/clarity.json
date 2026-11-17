@@ -1,0 +1,23 @@
+{
+ "reader": "results/clarity.md",
+ "expect": {
+  "gate": [
+   "coworkerwaitlistdeployment",
+   "coworkerwaitlistinviteddeployment",
+   "coworkerenableddeployment",
+   "coworkerUserBasedOnboarding",
+   "wordPressBrandAgent",
+   "wordPressBrandAgentConnectors",
+   "brandMCP",
+   "mcpAgentFlow",
+   "woocomerceMCP",
+   "moneyMaps",
+   "knowledgeUpload",
+   "liveSessions",
+   "copilotCasualMode",
+   "nonShoppingAgentsDashboard",
+   "akamaiCdnOnboarding"
+  ]
+ },
+ "noise": []
+}

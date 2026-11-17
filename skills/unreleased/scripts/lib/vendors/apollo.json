@@ -1,0 +1,9 @@
+{
+ "markers": [
+  "ApolloClient",
+  "__APOLLO_STATE__",
+  "apollo-client"
+ ],
+ "init": [],
+ "sdk": null
+}

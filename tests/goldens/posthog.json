@@ -1,0 +1,27 @@
+{
+ "reader": "results/posthog.md",
+ "expect": {
+  "gate": [
+   "posthog-code-deepseek-model",
+   "posthog-code-glm-53-model",
+   "posthog-code-mobile-push",
+   "passkey-signup-enabled",
+   "tasks-kimi-k3",
+   "web-revenue-tracking",
+   "session-risk-detection",
+   "project-bluebird",
+   "surveys-translations"
+  ],
+  "route": [
+   "/engineering-analytics/pull-requests",
+   "/uptime-monitoring",
+   "/streamlit-apps",
+   "/identity-matching",
+   "/ml-inference/playground"
+  ]
+ },
+ "noise": [
+  "your-experiment-feature-flag",
+  "flag-key"
+ ]
+}

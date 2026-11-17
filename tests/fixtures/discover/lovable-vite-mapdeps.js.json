@@ -1,0 +1,13 @@
+{
+ "product": "lovable",
+ "run": "results/lovable/2026-10-30T200522Z",
+ "raw_file": "76cc30ce15.js",
+ "url": "https://lovable.dev/assets/app-shared-C0FgTBq1.js",
+ "sha256_full": "cc80604067524a331de07c38dd8ad3d2e250bcb3130a8fe22cdacf8c9fd7e732",
+ "start": 6,
+ "end": 66783,
+ "needle": "__vite__mapDeps=(i,m=__vite__mapDeps",
+ "occurrences_in_body": 1,
+ "bytes": 66784,
+ "note": "the complete mapDeps array, cut at its closing bracket"
+}

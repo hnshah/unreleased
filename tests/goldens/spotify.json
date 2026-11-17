@@ -1,0 +1,23 @@
+{
+ "reader": "results/spotify.md",
+ "expect": {
+  "gate": [
+   "passkeys_enabled",
+   "naver_login_enabled"
+  ],
+  "inline": [
+   "passkeysEnabled",
+   "unifiedPasswordlessLoginEnabled"
+  ],
+  "route": [
+   "martini/chat",
+   "kid-account-selection",
+   "www-account-pages/genalpha",
+   "www-account-pages/pricechange"
+  ],
+  "subdomain": [
+   "mcp-connector-web.spotify.com"
+  ]
+ },
+ "noise": []
+}

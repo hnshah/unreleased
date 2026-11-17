@@ -1,0 +1,12 @@
+{
+ "product": "retool",
+ "run": "results/retool/2026-10-30T200620Z",
+ "raw_file": "6cee528289.html",
+ "url": "https://retool.com/",
+ "sha256_full": "7c7953bd20725f1affa1bab1119158cc67193625e4d4d3dab17af0ad7e19c9f8",
+ "start": 9881,
+ "end": 10689,
+ "needle": "href=\"/agents-waitlist\"",
+ "occurrences_in_body": 1,
+ "bytes": 808
+}

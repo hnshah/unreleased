@@ -1,0 +1,12 @@
+{
+ "product": "clarity",
+ "run": "results/clarity/2026-10-30T201210Z",
+ "raw_file": "df78e1ecda.html",
+ "url": "https://clarity.microsoft.com/projects",
+ "sha256_full": "3fa28c787808a89860a2ab6d5bdf0eb583c8d905da0b9844e4247889977b6893",
+ "start": 5373,
+ "end": 9543,
+ "needle": "config={\"features\":{",
+ "occurrences_in_body": 1,
+ "bytes": 4170
+}

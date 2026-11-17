@@ -1,0 +1,23 @@
+{
+ "reader": "results/linear.md",
+ "expect": {
+  "enum": [
+   "MOBILE_DIFFS_WAITLIST",
+   "REVIEWS_WAITLIST",
+   "AGENTS_WAITLIST"
+  ],
+  "route": [
+   "/mobile-diffs",
+   "/mobile-diffs/success"
+  ],
+  "subdomain": [
+   "orbit.linear.app"
+  ]
+ },
+ "noise": [
+  "getFeatureFlag",
+  "onFeatureFlags",
+  "reloadFeatureFlags",
+  "enable-background"
+ ]
+}

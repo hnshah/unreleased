@@ -1,0 +1,12 @@
+{
+ "product": "figma",
+ "run": "results/figma/2026-10-30T200330Z",
+ "raw_file": "98fe615edf.js",
+ "url": null,
+ "sha256_full": "6d8a70c7dd43f91e28a0c170bdd23a79dee705ad00f2f5e1c4d59ec4633267dd",
+ "start": 0,
+ "end": 2435,
+ "needle": "{\"agenda.default_agenda_item_title\"",
+ "occurrences_in_body": 1,
+ "bytes": 2435
+}

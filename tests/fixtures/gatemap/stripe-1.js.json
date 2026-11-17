@@ -1,0 +1,12 @@
+{
+ "product": "stripe",
+ "run": "results/stripe/2026-10-30T201001Z",
+ "raw_file": "1228e93835.js",
+ "url": "https://js.stripe.com/v3/",
+ "sha256_full": "1774d575ffb5110b3b12375b6cb225f9f1e1b793649f2da555091e8169cd5d37",
+ "start": 217228,
+ "end": 225128,
+ "needle": "{link_forest_beta_1:\"link_forest_beta_1\"",
+ "occurrences_in_body": 1,
+ "bytes": 7900
+}

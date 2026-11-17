@@ -1,0 +1,1 @@
+fk=s("/lovtok")({beforeLoad:be,loader:async({context:e})=>{await je(e.queryClient).catch(()=>{})},head:()=>({meta:[{title:"LovTok | Lovable"},{name:"robots",content:"noindex"}]}),

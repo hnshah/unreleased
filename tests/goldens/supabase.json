@@ -1,0 +1,21 @@
+{
+ "reader": "results/supabase.md",
+ "expect": {
+  "registry": [
+   "supabase-ui-storage-versioning",
+   "supabase-ui-platform-webhooks",
+   "supabase-ui-marketplace",
+   "supabase-ui-jit-db-access",
+   "preview-explorer"
+  ],
+  "subdomain": [
+   "workers-api",
+   "workers-ingress"
+  ]
+ },
+ "noise": [
+  "getFlags",
+  "onReloading",
+  "data-sonner-toaster"
+ ]
+}

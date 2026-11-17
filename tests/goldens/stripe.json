@@ -1,0 +1,28 @@
+{
+ "reader": "results/stripe.md",
+ "expect": {
+  "registry": [
+   "SETTINGS_CONNECT_AGENT_IN_A_BOX",
+   "agent_in_a_box",
+   "wrapped_2025_read",
+   "wrapped_2025_write",
+   "revenueStarter",
+   "stablecoin_treasury",
+   "token_billing",
+   "webmcp_enabled"
+  ],
+  "gate": [
+   "ng_ussd_pm_beta_1",
+   "kr_market_pm_beta_1",
+   "toss_pay_pm_beta_1"
+  ],
+  "route": [
+   "/accounting",
+   "/metronome-login",
+   "/agentic-commerce/agents"
+  ]
+ },
+ "noise": [
+  "_enabled"
+ ]
+}

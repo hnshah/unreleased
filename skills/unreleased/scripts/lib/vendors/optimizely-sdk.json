@@ -1,0 +1,14 @@
+{
+ "markers": [
+  "optimizelySdk",
+  "single_experiment",
+  "feature-test",
+  "optimizely.com",
+  "OptimizelyProvider"
+ ],
+ "init": [
+  "createInstance(",
+  "optimizelySdk.createInstance("
+ ],
+ "sdk": "Optimizely"
+}

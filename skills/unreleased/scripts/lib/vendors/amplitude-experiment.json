@@ -1,0 +1,11 @@
+{
+ "markers": [
+  "experiment.amplitude.com",
+  "@amplitude/experiment"
+ ],
+ "init": [
+  "Experiment.initialize(",
+  "initializeWithAmplitudeAnalytics("
+ ],
+ "sdk": "Amplitude Experiment"
+}

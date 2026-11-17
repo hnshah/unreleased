@@ -1,0 +1,7 @@
+{
+ "url": "https://www.workable.com/api/accounts/huggingface?details=true",
+ "fetched_at": "2026-10-30T22:36:42Z",
+ "status": 429,
+ "error": "<!DOCTYPE html>\r\n<html>\r\n  <head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <meta httpEquiv=\"Content-Type\" content=\"text/html; charSet=utf-8\" />\r\n    <meta httpEquiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"initial-scale=1.0, w",
+ "note": "keyless request answered 429 (HTML interstitial) on the first try; per POLICY.md no retry. Workable has no fixture."
+}

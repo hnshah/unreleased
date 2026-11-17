@@ -1,0 +1,30 @@
+{
+ "reader": "results/discord.md",
+ "expect": {
+  "route": [
+   "/conjure",
+   "/icymi",
+   "GAME_SHOP",
+   "GUILD_OFFICIAL_MESSAGES",
+   "MESSAGE_REQUESTS",
+   "ORB_PROFILE_BADGE",
+   "QUEST_PREVIEW",
+   "PREMIUM_TIER_2_1_HOUR",
+   "PREMIUM_TIER_2_1_DAY",
+   "PREMIUM_TIER_2_3_DAY"
+  ],
+  "string": [
+   "conjuring",
+   "official-messages",
+   "guild-space",
+   "game-shops"
+  ]
+ },
+ "noise": [
+  "traceInternals",
+  "captureExceptions",
+  "continuousCheckout",
+  "gate_evaluation",
+  "flag-used"
+ ]
+}

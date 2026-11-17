@@ -1,0 +1,49 @@
+{
+ "reader": "results/figma.md",
+ "expect": {
+  "gate": [
+   "make_local_native_ios_preview",
+   "make_local_claude_agent_sdk_sandbox",
+   "make_local_github_pr_api",
+   "figjam_code_layers",
+   "sites_code_layers_code_only",
+   "gm-tierupgrades-2026q3-ff-starter-design-assistant",
+   "ai_design_assistant_starter_paywall",
+   "weave_in_figma",
+   "ff_ai_credit_requests",
+   "enable_mcp_ai_credits_deeplink",
+   "ff_full_seat_plans",
+   "enable_skills_in_ds_home",
+   "enable_agora_transcriptions",
+   "campfire_provisional_access_enabled"
+  ],
+  "config": [
+   "assistant_monetization_config",
+   "figmake_model_picker_enabled_models",
+   "announce_agent_weave_ga_date"
+  ],
+  "string": [
+   "robin-1",
+   "hawk-1",
+   "hawk-3",
+   "velvet",
+   "goldenrod",
+   "Local Agent Flow Download Modal",
+   "AI Credit Usage Make Local"
+  ],
+  "subdomain": [
+   "weave.staging.figma.com",
+   "loupe.prod.figma.com"
+  ]
+ },
+ "redact": [
+  "cortex_single_tenant",
+  "ai_org_use_llama",
+  "statsig_figma_app_client_api_key"
+ ],
+ "noise": [
+  "beta_binomial_lpmf",
+  "exp_mod_normal_rng",
+  "data-show-focus"
+ ]
+}

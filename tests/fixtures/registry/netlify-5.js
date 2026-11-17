@@ -1,0 +1,1 @@
+scountPercentage:ts,discountMonths:tn,checkEligibility:tr,acceptOffer:ti}=(e=>{let{account:t}=e,a=(0,_.gf)(),s=(0,k.wA)(),n=(0,v.jE)(),r=!0===(0,A._)("project_entei_ui"),l=t?.get("id")||"",o=t?.get("slug")||"",c=(0,S.di)(t),[d,u]=(0,i.useState)(null),[p,m]=(0,i.useState)(null),[h,g]=(0,i.useState)(!1),w=async()=>{if(

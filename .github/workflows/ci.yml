@@ -1,0 +1,43 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "${{ matrix.python }}" }
+      - run: python3 -I -m unittest discover -s tests -p "test_*.py"
+      - run: python3 -I tools/budget.py
+      - run: python3 -I tools/validate_pack.py
+      - run: python3 -I tools/golden.py list
+      - run: python3 -I tools/eval_brief.py linear-fresh-host docs/examples/linear-brief.md
+      - run: python3 -I tools/eval_brief.py vercel-footnoted docs/examples/vercel-brief.md
+      - run: python3 -I skills/unreleased/scripts/unreleased.py doctor --offline
+  install:
+    name: installs the way a user would
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: npm install -g @anthropic-ai/claude-code
+      - run: claude plugin validate --strict .
+      - name: skills CLI sees the skill
+        run: |
+          npx -y skills add . --list 2>&1 | sed 's/\x1b\[[0-9;]*m//g' | tee list.txt
+          grep -q "unreleased" list.txt
+      - name: Claude Code installs from the checkout
+        env: { CLAUDE_CONFIG_DIR: /tmp/cc }
+        run: |
+          mkdir -p /tmp/cc
+          claude plugin marketplace add "$PWD"
+          claude plugin install unreleased@unreleased
+          claude plugin list | grep -q "unreleased@unreleased"
+      - name: the skill is registered, not just the plugin
+        env: { CLAUDE_CONFIG_DIR: /tmp/cc }
+        run: |
+          test -f /tmp/cc/plugins/*/unreleased*/skills/unreleased/SKILL.md || find /tmp/cc -path "*unreleased*" -name SKILL.md | grep -q skills/unreleased/SKILL.md

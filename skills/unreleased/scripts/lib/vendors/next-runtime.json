@@ -1,0 +1,10 @@
+{
+ "markers": [
+  "window.next",
+  "__NEXT_DATA__.runtimeConfig",
+  "serverRuntimeConfig"
+ ],
+ "init": [],
+ "sdk": null,
+ "note": "Next.js runtime config (appDir, buildId) read from window.next is framework state, not a product gate"
+}

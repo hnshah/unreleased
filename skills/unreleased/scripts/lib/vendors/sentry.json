@@ -1,0 +1,15 @@
+{
+ "markers": [
+  "_experiments",
+  "captureException",
+  "sentry.io/api",
+  "__SENTRY__",
+  "traceInternals",
+  "continuousCheckout",
+  "sentry-feedback"
+ ],
+ "init": [
+  "Sentry.init("
+ ],
+ "sdk": null
+}

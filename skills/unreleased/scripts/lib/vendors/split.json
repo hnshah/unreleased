@@ -1,0 +1,10 @@
+{
+ "markers": [
+  "splitio",
+  "SplitFactory"
+ ],
+ "init": [
+  "SplitFactory("
+ ],
+ "sdk": "Split"
+}

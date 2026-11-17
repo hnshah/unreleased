@@ -1,0 +1,25 @@
+{
+ "reader": "results/replit.md",
+ "expect": {
+  "call": [
+   "disable_max_for_core_subscribers",
+   "max_upgrade_discounted",
+   "flag-razorpay-checkout",
+   "canvas_media_generation",
+   "reverse_trial_banner",
+   "self_serve_enterprise",
+   "amazon-selling-partner-beta"
+  ],
+  "route": [
+   "/evaluations",
+   "/environments",
+   "/metric-observatory",
+   "pages/environments.page.tsx",
+   "pages/metric-observatory.page.tsx",
+   "pages/agentInboxAuth.page.tsx"
+  ]
+ },
+ "noise": [
+  "shipstation-v2"
+ ]
+}

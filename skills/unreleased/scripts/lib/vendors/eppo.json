@@ -1,0 +1,11 @@
+{
+ "markers": [
+  "geteppo",
+  "eppo-sdk"
+ ],
+ "init": [
+  "init("
+ ],
+ "sdk": "Eppo",
+ "requires_marker_for_init": true
+}

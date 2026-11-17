@@ -1,0 +1,10 @@
+{
+ "reader": "results/perplexity.md",
+ "expect": {
+  "subdomain": [
+   "space-api-experimental.perplexity.ai",
+   "space-api-prod-2.perplexity.ai"
+  ]
+ },
+ "noise": []
+}

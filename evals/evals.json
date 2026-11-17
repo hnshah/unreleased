@@ -1,0 +1,119 @@
+{
+ "version": 1,
+ "cases": [
+  {
+   "id": "notion-marketplace",
+   "product": "notion",
+   "corpus_run": "results/notion/2026-10-30T200330Z",
+   "question": "What is Notion building?",
+   "must_state": [
+    "marketplace",
+    "present in code",
+    "checkGate"
+   ],
+   "must_not_state": [
+    "will ship"
+   ],
+   "notes": "marketplace_* gates come from call sites; the receipt offset points at the gateName string; receipts are checked by the receipt rule (sha256:<12 hex>@<offset>), not a bare 'sha256:' phrase",
+   "verdict": "rich"
+  },
+  {
+   "id": "cursor-blocked-page",
+   "product": "cursor",
+   "corpus_run": "live 2026-11-17",
+   "question": "What is Cursor building?",
+   "must_state": [
+    "could not see",
+    "robots.txt",
+    "/dashboard"
+   ],
+   "must_not_state": [
+    "confirmed",
+    "nothing found"
+   ],
+   "notes": "the app (/dashboard, /agents, /api/) is under a robots.txt Disallow and is never requested (POLICY.md, kept 2026-11-17): the badge says partial, the brief says the app could not be seen and why, never a 403 it did not get and never 'nothing found'. Rewritten 2026-11-17: the 2026-10-30 case expected a 403 and Statsig, which the live site no longer shows to a robots-honouring read",
+   "verdict": "partial"
+  },
+  {
+   "id": "canva-could-not-see",
+   "product": "canva",
+   "corpus_run": "results/canva/2026-10-30T200330Z",
+   "question": "What is Canva building?",
+   "must_state": [
+    "certificate",
+    "job"
+   ],
+   "must_not_state": [
+    "present in code"
+   ],
+   "notes": "no first-party code read; the brief leads with the blocker and gives the surviving signals the full treatment",
+   "verdict": "could-not-see"
+  },
+  {
+   "id": "linear-fresh-host",
+   "product": "linear",
+   "corpus_run": "live 2026-11-01",
+   "question": "what is Linear building?",
+   "must_state": [
+    "present in code",
+    "my reading",
+    "could not see",
+    "The shape of it",
+    "Unannounced",
+    "Raises:",
+    "Receipts",
+    "Coverage"
+   ],
+   "must_not_state": [
+    "confirmed",
+    "launching",
+    "re:\\b(they|the company|linear|cursor|figma|canva)\\b[^.\\n]{0,50}\\b(because|wants?|intends?|in order to)\\b"
+   ],
+   "notes": "the current layout; checked against docs/examples/linear-brief.md; 'waitlist' dropped 2026-11-17: the example names it only inside `AGENTS_WAITLIST`, a key it sets aside, which the old substring grader counted as stating it",
+   "legacy_layout": false,
+   "verdict": "partial"
+  },
+  {
+   "id": "canva-blocked",
+   "product": "canva",
+   "corpus_run": "live 2026-11-01",
+   "question": "what is Canva building?",
+   "must_state": [
+    "403",
+    "not retried",
+    "What your own browser would see",
+    "REA"
+   ],
+   "must_not_state": [
+    "present in code (gate)",
+    "confirmed"
+   ],
+   "notes": "nothing read; the brief leads with the blocker, keeps empty sections empty and says what would fill them Written under the 0.1.0 inline-receipt layout, before the copy rules (no dashes, sentence case); kept as the record of what fresh hosts produced; copy rules are not checked.",
+   "legacy_layout": true,
+   "verdict": "could-not-see"
+  },
+  {
+   "id": "vercel-footnoted",
+   "product": "vercel",
+   "input": "what is vercel building?",
+   "must_state": [
+    "The shape of it",
+    "Unannounced",
+    "Raises:",
+    "Announced, for calibration",
+    "Campaigns",
+    "Receipts",
+    "Coverage",
+    "my reading",
+    "partially announced"
+   ],
+   "must_not_state": [
+    "confirmed",
+    "launching",
+    "re:\\b(they|the company|vercel)\\b[^.\\n]{0,50}\\b(because|wants?|intends?|in order to)\\b"
+   ],
+   "notes": "the footnoted layout (brief.md): badge + one line, shape paragraph, fact/checked/raises items, campaigns, footnote receipts, coverage last; a live run 2026-11-07 written by a fresh host",
+   "verdict": "rich"
+  }
+ ]
+}

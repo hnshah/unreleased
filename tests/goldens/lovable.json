@@ -1,0 +1,43 @@
+{
+ "reader": "results/lovable.md",
+ "expect": {
+  "catalog": [
+   "cofounder",
+   "cofounder-proactive",
+   "omni-missions",
+   "omni-workspace-voice",
+   "persistent-assistant",
+   "agent-browser",
+   "connected-computers",
+   "agent-link-wallet",
+   "byoc-custom-cloud",
+   "byo-vault",
+   "egress-filtering",
+   "ingress-filtering",
+   "frontend-tailscale-api",
+   "enterprise-mcp-registry-only",
+   "pro0-price-test-a",
+   "regional-pro-0",
+   "brl-pix-pricing",
+   "growth-tools",
+   "whatsapp-integration",
+   "telegram-integration"
+  ],
+  "route": [
+   "/chats/cofounder",
+   "/imessage/connect",
+   "/goblin",
+   "/lovtok"
+  ]
+ },
+ "keylist": [
+  "pro0-price-test-a",
+  "pro0-price-test-b",
+  "half-price",
+  "first-month-one"
+ ],
+ "noise": [
+  "enable-background",
+  "data-sonner-toaster"
+ ]
+}

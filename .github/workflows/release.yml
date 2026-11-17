@@ -1,0 +1,31 @@
+name: release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python3 -I -m unittest discover -s tests -p "test_*.py"
+      - run: python3 -I tools/validate_pack.py
+      - run: python3 -I tools/package_release.py
+      - name: release notes from CHANGELOG
+        run: |
+          python3 - > notes.md <<'PY'
+          import re, os
+          tag = os.environ["GITHUB_REF_NAME"].lstrip("v")
+          s = open("CHANGELOG.md", encoding="utf-8").read()
+          m = re.search(r"## \[" + re.escape(tag) + r"\][^\n]*\n(.*?)(?=\n## \[|\Z)", s, re.S)
+          print("Install: `/plugin install unreleased --marketplace hnshah/unreleased` in Claude Code, or `npx skills add hnshah/unreleased` elsewhere. Zip attached for manual installs.\n")
+          print(m.group(1).strip() if m else "")
+          PY
+      - uses: softprops/action-gh-release@v2
+        with:
+          name: unreleased ${{ github.ref_name }}
+          body_path: notes.md
+          files: dist/unreleased-*.zip

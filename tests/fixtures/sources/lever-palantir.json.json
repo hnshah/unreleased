@@ -1,0 +1,14 @@
+{
+ "url": "https://api.lever.co/v0/postings/palantir?mode=json",
+ "final_url": "https://api.lever.co/v0/postings/palantir?mode=json",
+ "status": 200,
+ "fetched_at": "2026-10-30T22:37:30Z",
+ "content_type": "application/json; charset=utf-8",
+ "bytes_full": 5874506,
+ "sha256_full": "8389cae86b472752e815ab0eafc1d183acdc14f772ff4dc1e96e7dea71fe4a70",
+ "bytes": 87692,
+ "sha256": "304a15929cdbc2d705f00b23ef62cf0b5feda0749d0428b46bec226735ddf01d",
+ "reduction": "kept the first 5 of 299 postings, every field",
+ "user_agent": "the project UA from scripts/lib/fetch.py",
+ "policy": "public API, one request, >= 1.2 s per host"
+}

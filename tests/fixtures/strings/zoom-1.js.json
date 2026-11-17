@@ -1,0 +1,12 @@
+{
+ "product": "zoom",
+ "run": "results/zoom/2026-10-30T200744Z",
+ "raw_file": "5d9efbc921.js",
+ "url": "https://file-paa.zoom.us/1wjcNkqnQnO02vEKNnAmCQ/MS4zLlittp70tbHYfaDb4ldW1xZBb6ChCyp3Nq5k4SO0Xjcu/zm-opt.js",
+ "sha256_full": "551df95ba8dd3946d3d8558bcaa8593f892c59d4d4eb1981de98c644c13a4d82",
+ "start": 969002,
+ "end": 975770,
+ "needle": "url_targeting_for_hotfix_bonsai_url_tracking_params",
+ "occurrences_in_body": 1,
+ "bytes": 6768
+}

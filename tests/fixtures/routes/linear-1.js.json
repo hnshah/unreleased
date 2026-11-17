@@ -1,0 +1,12 @@
+{
+ "product": "linear",
+ "run": "results/linear/2026-10-30T200330Z",
+ "raw_file": "80b13ea827.js",
+ "url": null,
+ "sha256_full": "4afc7d92f951456a21e55e40f5b27cc7c66b6a61b7437f7c8e2f363ecc21d649",
+ "start": 36725,
+ "end": 36979,
+ "needle": "source:\"/mobile-diffs\"",
+ "occurrences_in_body": 1,
+ "bytes": 254
+}

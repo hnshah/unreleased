@@ -1,0 +1,11 @@
+{
+  "name": "unreleased",
+  "version": "0.1.0",
+  "description": "What a product is building and hasn't announced, read from public pages: flags and experiments in its JavaScript, strings for UI that doesn't exist yet, new subdomains, job posts, the pricing page. A dated brief with a receipt on every line. Keyless; Python 3.11+.",
+  "author": {"name": "Hiten Shah"},
+  "homepage": "https://github.com/hnshah/unreleased",
+  "repository": "https://github.com/hnshah/unreleased",
+  "license": "MIT",
+  "keywords": ["competitive-intelligence", "feature-flags", "product-research", "unreleased", "changelog"],
+  "icon": ".claude-plugin/icon.png"
+}

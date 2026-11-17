@@ -1,0 +1,1 @@
+g:{amount:9999999}},jsApiConfig:{supportsConfirmXPayment:!0,betaFlags:["toss_pay_pm_beta_1"]}},vipps:{paymentMethodSpec:{type:"vipps",polling:!1,redirec

@@ -1,0 +1,12 @@
+{
+ "product": "stripe",
+ "run": "results/stripe/2026-10-30T201001Z",
+ "raw_file": "9ea8f7579e.js",
+ "url": "https://b.stripecdn.com/dashboard-fe-statics-srv/assets/login.gbeduyrm4ydrfjs2.js",
+ "sha256_full": "7c87be7bb28dcf8bfca7506f5db09b74c140f5f810dc1001fec08eaf3e29d156",
+ "start": 1875860,
+ "end": 1877727,
+ "needle": "$(\"metronomeLogin\",\"/metronome-login\"",
+ "occurrences_in_body": 1,
+ "bytes": 1867
+}

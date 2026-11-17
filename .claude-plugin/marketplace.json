@@ -1,0 +1,6 @@
+{
+  "name": "unreleased",
+  "owner": {"name": "Hiten Shah"},
+  "metadata": {"description": "What a product is building and hasn't announced, read from public pages, with a receipt on every line."},
+  "plugins": [{"name": "unreleased", "source": "./", "description": "What a product is building and hasn't announced, from public pages, with a receipt on every line.", "category": "productivity"}]
+}

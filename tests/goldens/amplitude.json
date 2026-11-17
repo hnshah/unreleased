@@ -1,0 +1,24 @@
+{
+ "reader": "results/amplitude.md",
+ "expect": {
+  "registry": [
+   "error-tracking",
+   "issues-v0",
+   "issues-mcp",
+   "user-profile-errors-tab",
+   "statsig-nav-item",
+   "statsig-org-link",
+   "pdlc-send-to-statsig",
+   "pdlc-linear-intake",
+   "wave-gitlab-integration",
+   "wave-amplitude-coding-agent-auto-fix",
+   "ai-visibility-2-0",
+   "passkey-login",
+   "session-replay-issue-impact",
+   "ecomm-setup-agent",
+   "canvas-studio",
+   "feature-simulator"
+  ]
+ },
+ "noise": []
+}

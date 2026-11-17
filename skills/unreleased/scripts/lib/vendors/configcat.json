@@ -1,0 +1,11 @@
+{
+ "markers": [
+  "configcat"
+ ],
+ "init": [
+  "configcat.getClient(",
+  "getClient("
+ ],
+ "sdk": "ConfigCat",
+ "requires_marker_for_init": true
+}

@@ -1,0 +1,13 @@
+{
+ "markers": [
+  "posthog.init",
+  "__posthog",
+  "posthog-js",
+  "persisted_feature_flags"
+ ],
+ "init": [
+  "posthog.init(",
+  "posthog.init("
+ ],
+ "sdk": "PostHog"
+}

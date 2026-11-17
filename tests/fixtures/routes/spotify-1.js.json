@@ -1,0 +1,12 @@
+{
+ "product": "spotify",
+ "run": "results/spotify/2026-10-30T200717Z",
+ "raw_file": "42dccc39ac.js",
+ "url": "https://accounts.scdn.co/authn-web/_next/static/chunks/245-4746c80123c53dcc.js",
+ "sha256_full": "a6124f307021a5a935a4fff6afaca6f13f3af392c7b34878db1e7fae0ce251b0",
+ "start": 122677,
+ "end": 150814,
+ "needle": "o.KID_ACCOUNT_SELECTION=\"kid-account-selection\"",
+ "occurrences_in_body": 1,
+ "bytes": 28137
+}

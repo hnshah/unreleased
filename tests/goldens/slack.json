@@ -1,0 +1,18 @@
+{
+ "reader": "results/slack.md",
+ "expect": {
+  "inline": [
+   "entplus_pricing_q3fy27",
+   "marketplace_nav_groups_q3fy27",
+   "hp_brand_refresh_q3fy27_v2",
+   "integrations_cta_v2_q3fy27",
+   "qualified_piper_chat_aa_q4fy27",
+   "gx_sign_up_with_ms_v2",
+   "slack_trials_tof"
+  ]
+ },
+ "noise": [
+  "shorthand-removed-v3",
+  "migrateWarn"
+ ]
+}

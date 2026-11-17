@@ -1,0 +1,9 @@
+{
+ "markers": [
+  "sanity.io",
+  "@sanity/",
+  "sanityClient"
+ ],
+ "init": [],
+ "sdk": null
+}

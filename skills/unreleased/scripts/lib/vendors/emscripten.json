@@ -1,0 +1,10 @@
+{
+ "markers": [
+  "/dev/tty",
+  "/proc/self/fd",
+  "Module['FS']",
+  "emscripten"
+ ],
+ "init": [],
+ "sdk": null
+}

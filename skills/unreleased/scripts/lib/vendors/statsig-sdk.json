@@ -1,0 +1,16 @@
+{
+ "markers": [
+  "gate_evaluation",
+  "experiment_evaluation",
+  "StatsigClient",
+  "__STATSIG__",
+  "statsig_api"
+ ],
+ "init": [
+  "statsig.initialize(",
+  "new StatsigClient(",
+  "Statsig.initialize(",
+  "StatsigClient("
+ ],
+ "sdk": "Statsig"
+}

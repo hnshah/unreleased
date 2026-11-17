@@ -1,0 +1,37 @@
+{
+ "reader": "results/notion.md",
+ "expect": {
+  "enum": [
+   "marketplace_custom_agent_version",
+   "marketplace_coupon",
+   "marketplace_payout",
+   "marketplace_refund",
+   "marketplace_service_request"
+  ],
+  "call": [
+   "marketplace_agent",
+   "meeting_notes_video_file_upload_enabled",
+   "meeting_notes_replay_enabled",
+   "diarized_transcript_ui_enabled",
+   "agent_in_meetings_route",
+   "seat_bundling_starter_pack_v2",
+   "plus_lock_waitlist",
+   "custom_blocks",
+   "page_presentation_mode",
+   "notion_mail_connector",
+   "workspace_encryption_key"
+  ],
+  "string": [
+   "business_annual_bundle_3_for_1_seats",
+   "business_annual_bundle_5_for_2_seats"
+  ],
+  "route": [
+   "/product/aimn-v2"
+  ]
+ },
+ "redact": [],
+ "noise": [
+  "uuid-v4",
+  "tracesSampleRate-v0"
+ ]
+}

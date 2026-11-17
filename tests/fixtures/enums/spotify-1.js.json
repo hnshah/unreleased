@@ -1,0 +1,12 @@
+{
+ "product": "spotify",
+ "run": "results/spotify/2026-10-30T200717Z",
+ "raw_file": "e6bd78e37f.js",
+ "url": "https://accounts.scdn.co/authn-web/_next/static/chunks/467-6ce5c5ec9bfc7a8d.js",
+ "sha256_full": "6b0e8511b95f11b5792ce068efc754d3ff30c1fb09e3aa7175f88d8f498c66c2",
+ "start": 8397,
+ "end": 9320,
+ "needle": "name:\"passkeys_enabled\"",
+ "occurrences_in_body": 1,
+ "bytes": 923
+}

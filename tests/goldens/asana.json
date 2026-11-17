@@ -1,0 +1,22 @@
+{
+ "reader": "results/asana.md",
+ "expect": {
+  "inline": [
+   "cmd_site_launch_11_26",
+   "tem_025_ai_teammates",
+   "pro_020_product_ai_direct_cta",
+   "geo_localized_pricing_addon",
+   "user_discounts_12_2025",
+   "chat_008_spara_vs_qualified"
+  ],
+  "route": [
+   "/product/ai/ai-teammates"
+  ]
+ },
+ "noise": [
+  "use-recaptcha-v2",
+  "green-v2",
+  "blue-v2",
+  "data-modal-close"
+ ]
+}

@@ -1,0 +1,1 @@
+window.__VINEXT_PAGES_LINK_PREFETCH_ROUTES__=[],window.__VINEXT_CLIENT_REWRITES__={beforeFiles:[{source:"/mobile-diffs",destination:"/mobile-diffs/success",has:[{type:"query",key:"success",value:"true"}]},{source:"/index.md",destination:"/api/markdown"},

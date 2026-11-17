@@ -1,0 +1,14 @@
+{
+ "url": "https://crt.sh/?q=%25.linear.app&output=json",
+ "final_url": "https://crt.sh/?q=%25.linear.app&output=json",
+ "status": 200,
+ "fetched_at": "2026-10-30T22:36:35Z",
+ "content_type": "application/json",
+ "bytes_full": 1120342,
+ "sha256_full": "1dcb9195880fa5b7bdfd2d915dc380f9810526e1b1d9598f2344a2db99034b45",
+ "bytes": 41939,
+ "sha256": "62796274b67e9b24931557c06ce9f3cd81a3a9ec432c5aa4c95a3e594d6c8147",
+ "reduction": "kept 124 of 3477 rows: the two earliest rows (by not_before) per distinct name_value plus every row with a malformed name",
+ "user_agent": "the project UA from scripts/lib/fetch.py",
+ "policy": "public API, one request, >= 1.2 s per host"
+}

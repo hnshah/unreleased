@@ -1,0 +1,12 @@
+name: Exclusion request
+description: Ask for a product to be excluded from unreleased (POLICY.md)
+labels: [exclusion]
+body:
+  - type: input
+    id: product
+    attributes: { label: Product and domain }
+    validations: { required: true }
+  - type: textarea
+    id: who
+    attributes: { label: Who you are at the company (we will confirm by a company address) }
+    validations: { required: true }

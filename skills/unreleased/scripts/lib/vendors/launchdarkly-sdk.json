@@ -1,0 +1,14 @@
+{
+ "markers": [
+  "LDClient",
+  "launchdarkly",
+  "ldclient"
+ ],
+ "init": [
+  "LDClient.initialize(",
+  "initialize(",
+  ".initialize("
+ ],
+ "sdk": "LaunchDarkly",
+ "requires_marker_for_init": true
+}

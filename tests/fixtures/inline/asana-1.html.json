@@ -1,0 +1,12 @@
+{
+ "product": "asana",
+ "run": "results/asana/2026-10-30T201234Z",
+ "raw_file": "bf43d8ae3d.html",
+ "url": "https://asana.com/",
+ "sha256_full": "af8e78884a98bf625d7a4dbf9039b8dec16390bd90a80d3794643b481a681835",
+ "start": 26364,
+ "end": 27693,
+ "needle": "window.experimentVariants = {",
+ "occurrences_in_body": 1,
+ "bytes": 1329
+}

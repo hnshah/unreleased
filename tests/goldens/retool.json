@@ -1,0 +1,26 @@
+{
+ "reader": "results/retool.md",
+ "expect": {
+  "hidden": [
+   "Remove R2 Waitlist"
+  ],
+  "route": [
+   "/agents-waitlist",
+   "/2026-agentic-work-report"
+  ]
+ },
+ "noise": [
+  "enable-background"
+ ],
+ "live_only": {
+  "call": [
+   "governance::projects",
+   "governance::permissionsV2ObjectScopes",
+   "paid::differentiated",
+   "nativeGit::useCandidates",
+   "sourceControl::enforceEntitlement",
+   "multiplayer::multiplayerNotReadyBlockEditor"
+  ],
+  "_why": "the reader found these in retool-edge.com, which v0 misattributed as third-party; not in the offline corpus. Requires attribution R4 and a live fetch."
+ }
+}

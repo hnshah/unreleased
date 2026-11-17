@@ -1,0 +1,8 @@
+interface:
+  display_name: "unreleased"
+  short_description: "What a product is building and hasn't announced, read from its public code, subdomains, job posts, pricing page, robots.txt and sitemap. A dated brief with a receipt on every line."
+  default_prompt: "Use unreleased to find what this product is building and hasn't announced. Read its public JavaScript for flags and experiments and strings for UI that doesn't exist yet, its certificate logs, job posts, pricing page, robots.txt and sitemap. Return a dated brief with a receipt on every line."
+  brand_color: "#1D4ED8"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+{
+ "markers": ["APIKeyMissingWarn", "projectIdMissingWarn", "noInitGTWarn", "gtProviderUseClientError", "gt-next"],
+ "init": [],
+ "sdk": null
+}

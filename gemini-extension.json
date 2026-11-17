@@ -1,0 +1,6 @@
+{
+  "name": "unreleased",
+  "version": "0.1.0",
+  "description": "What a product is building and hasn't announced, read from its public pages: flags and experiments in its JavaScript, strings for UI that doesn't exist yet, new subdomains, job posts, the pricing page, robots.txt and the sitemap. Keyless; Python 3.11+.",
+  "settings": []
+}

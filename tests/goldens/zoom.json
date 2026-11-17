@@ -1,0 +1,22 @@
+{
+ "reader": "results/zoom.md",
+ "expect": {
+  "inline": [
+   "isAicForAdminReleased",
+   "useSimplifiedPortal",
+   "simplifiedPortalEnabledSource",
+   "rollbackToClassicSupported",
+   "isPhoneLoginEnable"
+  ],
+  "string": [
+   "app-new-experience-portal",
+   "hotfix_bonsai_url_tracking_params"
+  ]
+ },
+ "noise": [
+  "single_experiment",
+  "side-menu-v3",
+  "show-when-hover-content",
+  "placeholder-enabled"
+ ]
+}

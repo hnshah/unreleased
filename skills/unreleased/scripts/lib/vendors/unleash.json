@@ -1,0 +1,10 @@
+{
+ "markers": [
+  "unleash-proxy",
+  "UnleashClient"
+ ],
+ "init": [
+  "new UnleashClient("
+ ],
+ "sdk": "Unleash"
+}

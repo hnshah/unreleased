@@ -1,0 +1,1 @@
+{type:"coupon",campaign:"business_expansion_two_member",discount:{type:"percent_off",percentOff:50},duration:{months:1}},{type:"coupon",campaign:"business_annual_bundle_5_for_2_seats",discount:{type:"seat_count",seatCount:3},duration:{months:12}},{type:"coupon",campaign:"business_annual_bundle_3_for_1_seats",discount:{type:"seat_count",seatCount:2},duration:{months:12}}

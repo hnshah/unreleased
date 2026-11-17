@@ -1,0 +1,42 @@
+{
+ "reader": "results/dropbox.md",
+ "expect": {
+  "enum": [
+   "CODEX",
+   "UNIFIED_HARNESS",
+   "ANTHROPIC",
+   "DASH_MCP",
+   "COWORK_SESSION",
+   "RAW_CODEX_JSON",
+   "IMAGE_GENERATION",
+   "SLACK_SEARCH",
+   "HTML_WEBPAGE_AUTHOR",
+   "DROPBOX_TRANSCRIBE_MEDIA",
+   "DROPBOX_ANALYZE_VIDEO",
+   "AI_CREDIT_ADDON",
+   "AI_PREMIUM_ADDON",
+   "LOCAL_DATA_RESIDENCY",
+   "PREMIUM_SUPPORT_ESSENTIALS",
+   "DROPBOX_OS_FREEMIUM",
+   "MULTI_DROPBOX_OS",
+   "OBJECT_STORAGE",
+   "CONTENT_PROCESSING",
+   "AGENT_FILESYSTEM",
+   "API_PROXY_DEV",
+   "COMMITS_AND_CREDITS"
+  ],
+  "gate": [
+   "one_license_standard_plan_enabled",
+   "ai_credit_price_variant"
+  ],
+  "route": [
+   "/waitlist/dash-for-teams"
+  ]
+ },
+ "noise": [
+  "ff-Adlm-BF",
+  "feature_1_name",
+  "enable_space_above",
+  "goog.labs"
+ ]
+}

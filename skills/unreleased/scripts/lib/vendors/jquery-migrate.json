@@ -1,0 +1,10 @@
+{
+ "markers": [
+  "migrateWarn",
+  "jQuery Migrate",
+  "shorthand-removed-v3",
+  "shorthand-deprecated-v3"
+ ],
+ "init": [],
+ "sdk": null
+}

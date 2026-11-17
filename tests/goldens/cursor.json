@@ -1,0 +1,17 @@
+{
+ "reader": "results/cursor.md",
+ "expect": {
+  "subdomain": [
+   "usage-xai.internal.cursor.com",
+   "subwoofer.origin.cursor.com",
+   "artifacts.origin.cursor.com",
+   "playground.cursor.com",
+   "git-proxy.origin.cursor.com"
+  ]
+ },
+ "noise": [
+  "feature-realtime-sync",
+  "feature-prd",
+  "enable-background"
+ ]
+}

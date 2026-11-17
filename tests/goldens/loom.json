@@ -1,0 +1,22 @@
+{
+ "reader": "results/loom.md",
+ "expect": {
+  "catalog": [
+   "exp-starter-video-limit-10",
+   "starter-video-limit-experiment-enabled",
+   "loom_ubp_tts_metering",
+   "loom_ubp_tts_enforcement",
+   "loom-ubp-enforcement-poll-config",
+   "loom-agentic-overlays",
+   "team-eu-loom-agentic-overlays-ui",
+   "hyperframes-overlays-agent-version",
+   "loom-rovo-search",
+   "rollout-post-to-community",
+   "loom-tts-filler-word-removal"
+  ]
+ },
+ "noise": [
+  "traceInternals",
+  "captureExceptions"
+ ]
+}

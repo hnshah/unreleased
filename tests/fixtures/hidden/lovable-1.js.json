@@ -1,0 +1,12 @@
+{
+ "product": "lovable",
+ "run": "results/lovable/2026-10-30T200522Z",
+ "raw_file": "cb677d1f17.js",
+ "url": "https://lovable.dev/assets/app-boot-BAopt2iv.js",
+ "sha256_full": "b9cf94ca087ac8e8fe29b5b83a1befe81c4f922dbb06a7b55b3fb2f961faccbd",
+ "start": 222785,
+ "end": 222964,
+ "needle": "{name:\"robots\",content:\"noindex\"}",
+ "occurrences_in_body": 29,
+ "bytes": 179
+}

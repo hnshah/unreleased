@@ -1,0 +1,14 @@
+{
+ "url": "https://vercel.com/atom",
+ "final_url": "https://vercel.com/atom",
+ "status": 200,
+ "fetched_at": "2026-10-30T22:37:40Z",
+ "content_type": "application/atom+xml",
+ "bytes_full": 4668651,
+ "sha256_full": "3619247d2e7f78044909d7abee2e429aecfaf661e1bf4b1b5df962c7f8b7fa38",
+ "bytes": 25786,
+ "sha256": "cbd312f59a25d0f21e33f116cb7eed3e2b61d4954aa187553fd800a02bc52ce6",
+ "reduction": "kept the feed preamble and the first 6 of 2108 entries",
+ "user_agent": "the project UA from scripts/lib/fetch.py",
+ "policy": "public API, one request, >= 1.2 s per host"
+}

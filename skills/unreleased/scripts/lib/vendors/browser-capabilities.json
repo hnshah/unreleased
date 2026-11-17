@@ -1,0 +1,15 @@
+{
+ "markers": [
+  "DOMTokenList",
+  "PluginArray",
+  "datetime-local",
+  "HTMLCanvasElement",
+  "MutationObserver",
+  "IntersectionObserver",
+  "ResizeObserver",
+  "requestIdleCallback"
+ ],
+ "init": [],
+ "sdk": null,
+ "note": "a browser capability sniff (feature-detection maps keyed by DOM interface names) is not a product gate; Raycast and another product both surfaced DOMTokenList = 1, PluginArray = 0, datetime-local = on"
+}

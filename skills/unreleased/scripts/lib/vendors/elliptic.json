@@ -1,0 +1,10 @@
+{
+ "markers": [
+  "elliptic",
+  "secp256k1",
+  "ed25519",
+  "curve25519"
+ ],
+ "init": [],
+ "sdk": null
+}

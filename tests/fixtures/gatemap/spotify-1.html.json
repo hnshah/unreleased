@@ -1,0 +1,12 @@
+{
+ "product": "spotify",
+ "run": "results/spotify/2026-10-30T200717Z",
+ "raw_file": "ed007f9c8d.html",
+ "url": "https://accounts.spotify.com/login",
+ "sha256_full": "2c3871b828fae53e8548edcd0736ab83cc7ee82b2e7fbf40ca2fc21ad70aa92c",
+ "start": 26293,
+ "end": 26638,
+ "needle": "\"featureFlags\":{",
+ "occurrences_in_body": 1,
+ "bytes": 345
+}

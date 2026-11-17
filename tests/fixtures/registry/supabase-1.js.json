@@ -1,0 +1,12 @@
+{
+ "product": "supabase",
+ "run": "results/supabase/2026-10-30T200622Z",
+ "raw_file": "de4f69fbb4.js",
+ "url": "https://frontend-assets.supabase.com/studio/tanstack/_vercel/immutable/initial/nitro/common-DN4KbYw2HyQQ8urw.js",
+ "sha256_full": "22bd7d26edea8adaa6b9d359be7ce69ed140a19c53da79abb72eef5860a3adc2",
+ "start": 2580,
+ "end": 8019,
+ "needle": "T={LOG_PRICING_ANNOUNCEMENT_DISMISSED:`",
+ "occurrences_in_body": 1,
+ "bytes": 5439
+}

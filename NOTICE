@@ -1,0 +1,17 @@
+unreleased
+Copyright (c) 2026 Hiten Shah. Licensed under the MIT License (see LICENSE).
+
+Third-party material in tests/fixtures/
+
+The files under tests/fixtures/ are short excerpts of pages, scripts and API responses that the named
+companies serve publicly (the product is in each file name; each fixture's .json sidecar records the source
+URL and the sha256 of the full body it was cut from). They are included only as test inputs, to show that
+the extractors read what is really in those files. They are not covered by this repository's MIT license;
+copyright stays with their owners. Values the engine redacts (keys, customer and organisation ids,
+customer-named gates) have been replaced with placeholders of the same shape.
+
+A company that wants a fixture of its material removed can ask through the exclusion issue template
+(.github/ISSUE_TEMPLATE/exclusion.yml); it is removed, and the product is excluded from future runs.
+
+docs/examples/ holds briefs written from public pages of Linear and Vercel on the dates they carry; the
+quoted strings are those companies' and are quoted for commentary.

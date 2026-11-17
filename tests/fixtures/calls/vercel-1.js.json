@@ -1,0 +1,12 @@
+{
+ "product": "vercel",
+ "run": "results/vercel/2026-10-30T200335Z",
+ "raw_file": "099ca742b1.js",
+ "url": "https://vercel.com/_next/static/immutable/chunks/3qj6dh26qfm-_.js",
+ "sha256_full": "f27eb7fa278a2cfcd9ae17d26237967819f5842d0e70728a049afe14de552778",
+ "start": 72052,
+ "end": 72488,
+ "needle": "useServerFlag)(\"enable-repositories\"",
+ "occurrences_in_body": 1,
+ "bytes": 436
+}

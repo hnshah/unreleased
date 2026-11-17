@@ -1,0 +1,14 @@
+{
+ "url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=false",
+ "final_url": "https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=false",
+ "status": 200,
+ "fetched_at": "2026-10-30T22:36:37Z",
+ "content_type": "application/json",
+ "bytes_full": 88754,
+ "sha256_full": "616f4c7954ec3ae5b22c31a147e0ae73bb4ca99a8986a3535c2c20d501f8acc5",
+ "bytes": 88754,
+ "sha256": "616f4c7954ec3ae5b22c31a147e0ae73bb4ca99a8986a3535c2c20d501f8acc5",
+ "reduction": "whole response",
+ "user_agent": "the project UA from scripts/lib/fetch.py",
+ "policy": "public API, one request, >= 1.2 s per host"
+}

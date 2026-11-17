@@ -1,0 +1,14 @@
+{
+ "url": "https://linear.app/changelog",
+ "final_url": "https://linear.app/changelog",
+ "status": 200,
+ "fetched_at": "2026-10-30T22:37:41Z",
+ "content_type": "text/html; charset=utf-8",
+ "bytes_full": 1554493,
+ "sha256_full": "efbaf2fa831d17b440ff881045872a8e55cac79fd52497da5adc5ef7ba6e557c",
+ "bytes": 50163,
+ "sha256": "8807d70a79e107f2f564e5a728ad25a0206c37c9b7c3dbbb959a0f6b031de69b",
+ "reduction": "excerpt: <main> window 54126-144156 of the full page (the page header and the first three changelog entries), with <svg> blocks removed; byte offsets are into the full body (sha256_full)",
+ "user_agent": "the project UA from scripts/lib/fetch.py",
+ "policy": "public API, one request, >= 1.2 s per host"
+}

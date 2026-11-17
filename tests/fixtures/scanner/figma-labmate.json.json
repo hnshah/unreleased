@@ -1,0 +1,11 @@
+{
+ "product": "figma",
+ "raw_file": "da7d62eceb.html",
+ "url": "https://www.figma.com/login",
+ "sha256_full": "149615a0e6ff774fa7aee943188cdfabcb1b2d9f4ac38d2a02f0b8c4a2a84c09",
+ "start": 123843,
+ "end": 202777,
+ "needle": "\"labmate_data\":{\"statsig\":{",
+ "bytes": 78934,
+ "note": "the complete labmate_data object from the Figma login page, cut at its balanced end"
+}

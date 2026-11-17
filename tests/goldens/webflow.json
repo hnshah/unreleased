@@ -1,0 +1,10 @@
+{
+ "reader": "results/webflow.md",
+ "expect": {
+  "subdomain": [
+   "eu.webflow.com",
+   "mcp.eu.webflow.com"
+  ]
+ },
+ "noise": []
+}

@@ -1,0 +1,1 @@
+"""Sources: one public signal per module. Each: fetch(plan, fetcher) -> (list[Record], list[SourceOutcome]); health(fetcher) -> SourceOutcome. A source never raises past its boundary: every failure is a SourceOutcome state."""

@@ -1,0 +1,32 @@
+{
+ "reader": "results/netlify.md",
+ "expect": {
+  "registry": [
+   "project_vulpix_ui",
+   "project_wobbuffet_ui",
+   "project_entei_ui",
+   "project_combusken_ui",
+   "project_wishiwashi_ui",
+   "project_swadloon_ui",
+   "project_stunfisk_ui",
+   "project_intentional_onboarding_ui",
+   "ops_azure_logs_ingestion_ui",
+   "hud_enabled",
+   "credit-pro-tier-2"
+  ],
+  "route": [
+   "/edge-access",
+   "/configuration/ai-enablement"
+  ]
+ },
+ "keylist": [
+  "team_level_sso_enabled",
+  "scim_enabled",
+  "saml_enabled"
+ ],
+ "noise": [
+  "data-hj-suppress",
+  "sentry-beta",
+  "verify-v1"
+ ]
+}

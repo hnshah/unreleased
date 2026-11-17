@@ -1,0 +1,12 @@
+{
+ "product": "supabase",
+ "run": "results/supabase/2026-10-30T200622Z",
+ "raw_file": "f1d6e0830d.js",
+ "url": null,
+ "sha256_full": "858aac71a8c0d1fa505c4e8d2be7675532feae874cb5ad1d656d72cf263d964d",
+ "start": 594366,
+ "end": 597119,
+ "needle": "C(`/project/$ref/settings/webhooks/$endpointId`)",
+ "occurrences_in_body": 1,
+ "bytes": 2753
+}

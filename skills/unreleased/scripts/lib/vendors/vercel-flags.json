@@ -1,0 +1,13 @@
+{
+ "markers": [
+  "@vercel/flags",
+  "flags/definitions",
+  "data-flag-values"
+ ],
+ "init": [
+  "flag(",
+  "data-flag-values"
+ ],
+ "sdk": "Vercel Flags",
+ "requires_marker_for_init": true
+}

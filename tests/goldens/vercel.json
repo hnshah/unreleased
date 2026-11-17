@@ -1,0 +1,28 @@
+{
+ "reader": "results/vercel.md",
+ "expect": {
+  "route": [
+   "enablePrivateInference",
+   "enablePerimeters",
+   "enablePerimetersTerraform",
+   "enableRepositories",
+   "enableAeoO11y",
+   "postgresDatabaseUi",
+   "vercelCiEnabled",
+   "enableVercelSecurityReviews",
+   "enableVercelCodeOwners"
+  ],
+  "inline": [
+   "new-pro-two-ui-phases-2026",
+   "phase-1"
+  ],
+  "call": [
+   "enable-repositories"
+  ]
+ },
+ "noise": [
+  "experimental.authInterrupts",
+  "t.flag",
+  "r.flag"
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "product": "slack",
+ "run": "results/slack/2026-10-30T200810Z",
+ "raw_file": "3adc6dce4c.html",
+ "url": "https://slack.com/",
+ "sha256_full": "8134ade05e56c68aa35d8ada1cff7266b8ec0469a8b3d499900307dee705b316",
+ "start": 238044,
+ "end": 238952,
+ "needle": "TD.boot_data.experiments = [",
+ "occurrences_in_body": 1,
+ "bytes": 908
+}

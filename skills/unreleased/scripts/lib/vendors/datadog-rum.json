@@ -1,0 +1,9 @@
+{
+ "markers": [
+  "DD_RUM",
+  "datadoghq",
+  "ddrum"
+ ],
+ "init": [],
+ "sdk": null
+}

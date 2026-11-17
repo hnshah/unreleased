@@ -1,0 +1,5 @@
+{
+ "markers": ["hlsjs", "Hls.Events", "FRAG_LOADED", "MANIFEST_PARSED", "LEVEL_SWITCHED", "key_system", "KEY_SYSTEM_", "media_preview", "hlsListeners"],
+ "init": [],
+ "sdk": null
+}

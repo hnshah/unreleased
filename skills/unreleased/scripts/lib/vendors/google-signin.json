@@ -1,0 +1,10 @@
+{
+ "markers": [
+  "enable_fedcm",
+  "gsi/client",
+  "accounts.google.com/gsi",
+  "enable_gis_oauth"
+ ],
+ "init": [],
+ "sdk": null
+}
